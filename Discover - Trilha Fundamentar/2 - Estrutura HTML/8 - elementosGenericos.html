@@ -1,0 +1,21 @@
+<!------------------SECTION---------------------->
+<!--
+    Elementos não semânticos, para uso genéricos.
+
+    div     - Usado se não conseguir achar um elemento de bloco semântico
+    span    - Usado se não conseguir achar um elemento de texto semântico
+
+    Em ambas, use atributos globais, como id e class para entregar maior significado
+-->
+<h1>Título <span class="destaque"> destacado </span></h1>
+
+
+<section>
+    <h2>Carrinho de compras</h2>
+</section>
+<!--No caso dessa section, o carrinho de compras não tem um contexto relacionado a página
+Ele possui contexto na pagina inteira, então o uso de section seria semanticamente errado, 
+nesse caso o correto seria fazer uso de uma div-->
+<div class="cart">
+    <h2>Carrinho de compras</h2>
+</div>
