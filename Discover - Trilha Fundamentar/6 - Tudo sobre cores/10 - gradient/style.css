@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+/*header{
+    height: 500px;
+    border: 7px dashed red;
+    padding: 50px;
+}*/
+main{
+    color: white;
+    background: rgb(55, 100, 50) 
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeykx_tcktymrcE5eNFjwHg_r1BYpF3GVN4Q&usqp=CAU) 
+    no-repeat center / contain
+    content-box content-box
+    fixed;
+    background: radial-gradient(red, yellow, green)
+}
+
+/*
+=======================linear-gradient=======================
+- utilizado no background
+- pode-se utilizar várias cores para formar o gradient
+- é possível informar value deg no inicio para mudar posição do gradient
+=======================radial-gradient=======================
+- utilizado no background
+- pode-se utilizar várias cores para formar o gradient
+*/

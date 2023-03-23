@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+header{
+    height: 500px;
+    border: 7px dashed red;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeykx_tcktymrcE5eNFjwHg_r1BYpF3GVN4Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;        /* center top, bottom right, left center, etc */
+}

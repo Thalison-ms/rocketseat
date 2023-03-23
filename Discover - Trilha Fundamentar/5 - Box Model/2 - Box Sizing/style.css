@@ -1,0 +1,39 @@
+/*
+Como será calculado o tamanho total da caixa?
+    - Fazendo uso do box-sizing
+    - content-box, border-box
+
+content-box
+    -Basicamente soma 
+
+*/
+/*===============================================================================================*/
+/*box-sizing: content-box*/
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px;
+}
+/*
+    Com essa configuração, a caixa não irá respeitar o tamanho da largura que foi definina em width
+    Quando utilizado content-box, tudo que for adicioando além do width, será somado
+    Nesse caso, foi adicionado padding de 20px para as laterais, ou seja, 20px lado esquerdo e 20px lado direito
+    Totalizando então 140px de largura
+*/
+/*===============================================================================================*/
+/*box-sizing: border-box*/
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px;
+}
+
+/*
+    Fazendo uso do border-box definimos que width deve ser respeitado, então tudo que for adicionado nessa estrutura
+    deverá fará com que elementos se redimensione para que não ultrapasse os 100px do width
+*/

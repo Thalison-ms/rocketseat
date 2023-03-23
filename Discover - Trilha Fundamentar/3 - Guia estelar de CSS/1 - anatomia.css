@@ -1,0 +1,28 @@
+/*Anatomia*/
+h1{
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
+/*
+- Selector
+    - Procure no html algum tipo de tag h1, quando encontrar essa tag, aplique todas as propriedades acima
+    - Global Selector       *
+    - Element/Type          h1, h2, p, div
+    - ID Selector           #box, #container
+    - Class Selector        .red, .m-4
+    - Attribute selector    Pseudo-class, Pseudo-element, e outros
+
+- Declaration
+    - Tudo que estiver dentro da {} chave
+
+
+
+- Properties
+    - É o nome da propriedade, color, font-size, background, etc.
+
+
+- Property Value
+    - É o valor da propriedade, blue, 60px, gray
+*/

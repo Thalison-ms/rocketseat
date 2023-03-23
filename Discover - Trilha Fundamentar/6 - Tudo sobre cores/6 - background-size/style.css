@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+header{
+    height: 500px;
+    border: 7px dashed red;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeykx_tcktymrcE5eNFjwHg_r1BYpF3GVN4Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;        
+    background-size: contain;           /* contain, cover,  
+                                        (50% primeiro valor se aplica a largura), (50% largura, 25% segundo valor se aplica a altura)
+                                        Também é possível fazer uso do tipo em, exemplo: 5em, 8em, etc
+                                        Também é possível fazer uso do tipo px, exemplo: 100px, 200px, etc
+                                        */
+}

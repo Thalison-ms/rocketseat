@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+/*header{
+    height: 500px;
+    border: 7px dashed red;
+    padding: 50px;
+}*/
+main{
+    color: white;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeykx_tcktymrcE5eNFjwHg_r1BYpF3GVN4Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;        
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+    background: rgb(55, 100, 50) 
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeykx_tcktymrcE5eNFjwHg_r1BYpF3GVN4Q&usqp=CAU) 
+    repeat-x center / 50px 
+    border-box border-box 
+    scroll;
+}
+

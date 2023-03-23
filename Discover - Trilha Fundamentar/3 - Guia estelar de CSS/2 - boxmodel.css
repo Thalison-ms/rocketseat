@@ -1,0 +1,10 @@
+h1{
+    border: 1px solid red;
+    margin: 20px;
+}
+/*
+Com essa estilização podemos ver o tamanho da caixa, pois será criado uma bordar em volta do elemento
+Tudo em CSS é caixa
+Ao colocar um margin nesse h1, a caixa irá se distanciar das estremidades da tela
+Ou seja, toda vez que ver um elemento, imagine que seja uma caixa
+*/

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+header{
+    height: 500px;
+    border: 7px dashed red;
+    padding: 50px;
+
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeykx_tcktymrcE5eNFjwHg_r1BYpF3GVN4Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;        
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+/*
+===============================background-origin===============================
+- Define onde será o inicio da imagem
+
+border-box              começa a partir do border
+content-box             começa depois da borda
+padding-box             caso a caixa seja grande e a imagem tenha padding, está opção irá burlar fazendo iniciar a partir do padding
+===============================background-clip===============================
+- Define onde será o inicio do fundo do background
+
+border-box              começa a partir do border
+content-box             começa depois da borda
+padding-box             caso a caixa seja grande e a imagem tenha padding, está opção irá burlar fazendo iniciar a partir do padding
+===============================
+As duas propriedades podem ser usadas em conjuntos
+Uma pode se ajustar a outra
+*/
