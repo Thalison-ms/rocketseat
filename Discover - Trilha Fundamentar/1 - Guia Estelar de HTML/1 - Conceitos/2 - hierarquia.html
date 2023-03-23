@@ -1,0 +1,47 @@
+<!--
+    Aninhamento de tags
+    - Hierarquia
+    - Fluxo
+    - Posicionamento dos elementos
+-->
+
+
+<!------------------HIERARQUIA------------------>
+<!--Abaixo a tag <em> é filha da tag <p>-->
+<!--E a tag <p> é filha da tag <div>-->
+
+<div>
+    <p>
+        Vou <em>escrever</em> um parágrafo
+    </p>
+</div>
+<hr>
+<!------------------FLUXO------------------>
+<!--Cada <tag> irá aparecer conforme sua linha-->
+<p>
+    Vou <em>escrever</em> um parágrafo
+</p>
+<p>
+    Esse é um novo parágrafo
+</p>
+<!--Existem situações que faz-se necesário a quebra da linha e outras não-->
+<!--Na situação abaixo podemos ver que não houve a quebra de linha-->
+<p>
+    Esse é um <em>texto</em>
+    Aqui é outro
+</p>
+<!--Já aqui temos a solução, mas veja que não são todas as tag que quebram linha, como a tag <a>-->
+<p>
+    <a href="">Esse</a>
+    é um <em>texto</em>
+    <p>Aqui é outro</p>
+</p>
+<!--Caso seja necessário forçar uma quebra de linha temos a tag <br>-->
+<p>
+    <a href="">Esse</a>
+    é um <em>texto</em><br> Aqui é outro
+</p>
+<hr>
+<!------------------POSICIONAMENTO------------------>
+<!--Por padrão o posicionamento em HTML é um abaixo do outro-->
+<!--Para aplicar outros tipos de posicionamentos faz-se necessário uso do CSS-->
